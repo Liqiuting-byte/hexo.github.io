@@ -15,8 +15,8 @@
       "try-to-escape-single-line-arrays": false
     },
     "force-yaml-escape": {
-      "enabled": false,
-      "force-yaml-escape-keys": ""
+      "enabled": true,
+      "force-yaml-escape-keys": "published: date"
     },
     "format-tags-in-yaml": {
       "enabled": false
@@ -58,7 +58,7 @@
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
-      "enabled": false,
+      "enabled": true,
       "date-created": true,
       "date-created-key": "date created",
       "date-created-source-of-truth": "file system",
@@ -187,22 +187,22 @@
       "tabsize": 4
     },
     "empty-line-around-blockquotes": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-code-fences": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-horizontal-rules": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-math-blocks": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-tables": {
-      "enabled": false
+      "enabled": true
     },
     "heading-blank-lines": {
-      "enabled": false,
+      "enabled": true,
       "bottom": true,
       "empty-line-after-yaml": true
     },
@@ -270,7 +270,7 @@
       "enabled": false
     }
   },
-  "lintOnSave": false,
+  "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "lintOnFileChange": false,

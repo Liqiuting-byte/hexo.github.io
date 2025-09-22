@@ -1,6 +1,6 @@
 ---
 title: "[转载]逆向工具汇总"
-published: 2025-08-27
+date: 2025-08-27
 description: 逆向工具汇总
 tags:
   - 技术

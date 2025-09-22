@@ -1,6 +1,6 @@
 ---
 title: Wiki search and Wikilinks
-published: 2025-09-07
+date: 2025-09-07
 description: 适配反向链接与维基词条
 tags:
   - 技术

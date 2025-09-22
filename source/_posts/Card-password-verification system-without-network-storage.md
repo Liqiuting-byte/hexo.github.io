@@ -1,6 +1,6 @@
 ---
 title: 脱离存储的卡密验证系统
-published: 2025-08-29
+date: 2025-08-29
 description: 基于cloudflare搭建的脱离存储的卡密验证系统
 tags:
   - 技术
@@ -10,8 +10,11 @@ tags:
 category: MoonLight
 draft: false
 pinned: true
+
 ---
+
 ### 原理
+
 1. 传统当中`客户端-服务器-数据库`的卡密验证架构，对于服务器，数据库存在一定需求，很容易成为攻击目标，为了弥补搭建网络卡密验证方面的缺点，写了本文章
 2. 全文分为两个公钥私钥，算法为ES256，是JWT当中常见的数字签名算法，结合与哈希与椭圆曲线，更短的密钥可以有更好的安全性
 3. 我们脱离了数据存储，自然是需要将密文解密的，本地的解密是绝对不安全的，因此需要Cloudflare进行解密，为了保证中间人不会篡改，同样用了椭圆曲线进行了前后公私密钥的签名校验
@@ -36,20 +39,22 @@ pinned: true
 首先，初始化项目并安装 `jose` 库：
 `npm init -y`
 `npm install jose`
-> Jose库需要在本地安装，因此本项目的ts并不能直接复制到CFworkers，因此全程构建需要电脑环境，低成本必须要求的牺牲，没办法，如果有大佬可以构建出脱离电脑的运行脚本，还请多多帮助
 
+> Jose库需要在本地安装，因此本项目的ts并不能直接复制到CFworkers，因此全程构建需要电脑环境，低成本必须要求的牺牲，没办法，如果有大佬可以构建出脱离电脑的运行脚本，还请多多帮助
 
 > 附录Jose是实现JWT的核心，有不会的可以去百度搜索，不做赘述了
 
-
 我们需要两对 ECDSA P-256 密钥：一对用于管理员，一对用于 Worker。
 修改 `package.json`，添加 `"type": "module",`。
+
 ### 卡密的生成与签发
+
 :::tip
 package.json没有就创建一个
 :::
  下面是js代码
 **`generate-keys.js`**
+
 ```javascript
 import { generateKeyPair, exportSPKI, exportPKCS8 } from 'jose';
 import { promises as fs } from 'fs';
@@ -80,6 +85,7 @@ console.log('\n密钥对已全部生成！');
 *   `worker_public_key.pem`: 将硬编码到安卓 App 中
 
 **`issue-token.js`**
+
 ```javascript
 import { SignJWT, importPKCS8 } from 'jose';
 import { promises as fs } from 'fs';
@@ -108,9 +114,11 @@ if (!userDeviceId || !days) {
     issueGoldenToken(userDeviceId, days);
 }
 ```
+
 **使用**: `node issue-token.js <用户的设备ID> <有效天数>` (例如 `30` 天)。生成的长字符串就是发给用户的卡密。
 
 ### 网络端
+
 我们将使用 Wrangler CLI 工具来创建和部署 Worker。
 
 1.  **创建项目**: `npx wrangler init my-license-worker` (选择 `Worker only` 模板)。
@@ -118,6 +126,7 @@ if (!userDeviceId || !days) {
 3.  **上传密钥**: 使用 `wrangler secret put` 命令，将 `admin_public_key.pem` 和 `worker_private_key.pem` 的内容分别上传到名为 `ADMIN_PUBLIC_KEY` 和 `WORKER_PRIVATE_KEY` 的环境变量中（这里可能会卡，记得挂梯子）
 
 **`src/index.ts`**
+
 ```typescript
 import { importSPKI, jwtVerify, SignJWT, importPKCS8 } from 'jose';
 
@@ -191,6 +200,7 @@ function jsonResponse(data: object, status: number = 200): Response {
 类名：SecurityManager
 
 相关代码
+
 ```Java
 package bbs.yuchen.icu;  
   

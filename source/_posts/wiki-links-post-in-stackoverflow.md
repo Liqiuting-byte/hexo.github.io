@@ -1,6 +1,6 @@
 ---
 title: "[转载]给"
-published: 2025-09-07
+date: 2025-09-07
 description: wiki-links-post-in-stackoverflow
 tags:
   - 技术

@@ -1,6 +1,6 @@
 ---
 title: 使用 SSH Config 实现认证分离
-published: 2025-09-22
+date: 2025-09-22
 description: 迁移
 tags:
   - 技术

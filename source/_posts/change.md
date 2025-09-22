@@ -1,6 +1,6 @@
 ---
 title: 更改本blog为stellar
-published: 2025-09-21
+date: 2025-09-21
 description: 更改本blog为stellar
 tags:
   - 技术

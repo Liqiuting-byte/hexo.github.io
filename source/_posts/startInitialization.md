@@ -1,6 +1,6 @@
 ---
 title: startInitialization初始化逻辑
-published: 2025-08-23
+date: 2025-08-23
 description: startInitialization
 tags:
   - 技术

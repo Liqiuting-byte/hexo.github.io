@@ -1,6 +1,6 @@
 ---
 title: MoonLight后台管理
-published: 2025-08-28
+date: 2025-08-28
 description: MoonLight后台管理 基于gist的一个网络弹窗系统
 tags:
   - 技术

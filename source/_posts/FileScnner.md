@@ -1,6 +1,6 @@
 ---
 title: FileScnner
-published: 2025-08-24
+date: 2025-08-24
 description: 对于AndroidAPP私有目录定期并扫描的封装
 tags:
   - 技术

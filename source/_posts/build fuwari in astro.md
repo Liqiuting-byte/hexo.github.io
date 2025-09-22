@@ -1,6 +1,6 @@
 ---
 title: " 本博客搭建教程"
-published: 2025-08-05
+date: 2025-08-05
 description: 这是我用 Astro 搭建的新博客的一篇教程
 tags:
   - 技术

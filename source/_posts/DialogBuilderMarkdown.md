@@ -1,6 +1,6 @@
 ---
 title: DialogBuilder
-published: 2025-08-26
+date: 2025-08-26
 description: DialogBuilder
 tags:
   - 技术

@@ -1,6 +1,7 @@
+
 ---
 title: 对于原项目Dialog的重构
-published: 2025-08-23
+date: 2025-08-23
 description: 对于原项目Dialog的重构
 tags:
   - 技术

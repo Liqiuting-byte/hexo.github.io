@@ -1,6 +1,6 @@
 ---
 title: Fuwari美化
-published: 2025-08-13
+date: 2025-08-13
 description: 如何添加透明背景，以及适应多种色彩
 tags:
   - 技术

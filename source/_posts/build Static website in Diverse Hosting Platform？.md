@@ -1,6 +1,6 @@
 ---
 title: 如何将你的 Astro 网站部署到 Cloudflare、Vercel 和 Netlify
-published: 2025-08-06
+date: 2025-08-06
 description: 如何将你的 Astro 网站部署到 Cloudflare、Vercel 和 Netlify
 tags:
   - 技术

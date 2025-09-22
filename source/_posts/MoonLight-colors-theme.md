@@ -1,6 +1,6 @@
 ---
 title: MoonLight主题颜色
-published: 2025-08-23
+date: 2025-08-23
 description: MoonLight主题颜色
 tags:
   - 技术

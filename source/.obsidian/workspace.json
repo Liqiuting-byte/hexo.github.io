@@ -157,9 +157,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/SSH-Config.md",
+                "file": "_posts/wikilink-all.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SSH-Config"
+              "title": "wikilink-all"
             }
           }
         ],
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/SSH-Config.md",
+                "file": "_posts/wikilink-all.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "SSH-Config 的反向链接列表"
+              "title": "wikilink-all 的反向链接列表"
             }
           },
           {
@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/SSH-Config.md",
+                "file": "_posts/wikilink-all.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SSH-Config 的大纲"
+              "title": "wikilink-all 的大纲"
             }
           }
         ],
@@ -328,32 +328,32 @@
   },
   "active": "32dc93d2db475e51",
   "lastOpenFiles": [
-    "_posts/学习5.md",
-    "_posts/学习3-1.md",
-    "_posts/学习3.md",
-    "_posts/学习1.md",
-    "_posts/学习.md",
-    "_posts/网站SEO-md.md",
-    "_posts/添加woff2切片.md",
-    "_posts/苏苏.md",
-    "_posts/逻辑.md",
-    "_posts/经济.md",
-    "_posts/汉代政府组织.md",
-    "_posts/大众心理学.md",
-    "_posts/《沉思录》.md",
-    "_posts/中国式逻辑.md",
-    "_posts/wikilink-all.md",
+    "_posts/startInitialization.md",
+    "_posts/proxy by chain.md",
     "_posts/SSH-Config.md",
-    "_posts/Blog Fuck Guide！.md",
-    "_posts/build Static website in Diverse Hosting Platform？.md",
-    "_posts/build fuwari in astro.md",
-    "_posts/markdown-extended.md",
     "_posts/wiki-links-post-in-stackoverflow.md",
+    "_posts/wikilink-all.md",
+    "_posts/wiki-links-test.md",
+    "_posts/video.md",
     "_posts/Wiki search and Wikilinks.md",
+    "_posts/Using markdown wiki-links in Astro framework.md",
+    "_posts/Trojan-Donut.e-in-Huorong.md",
+    "_posts/Supplementary network configuration loading.md",
+    "_posts/ReformBottom.md",
+    "_posts/MoonLight-colors-theme.md",
+    "_posts/MoonLight.md",
     "_posts/markdown-tutorial.md",
+    "_posts/markdown-mermaid.md",
+    "_posts/markdown.md",
+    "_posts/markdown-extended.md",
+    "_posts/Load-the-network configuration-pop-up window.md",
+    "_posts/make-Fuwari-great-again.md",
+    "_posts/guide/index.md",
+    "_posts/How to use CloudFllare to proxy device.md",
+    "_posts/How to give the application kill-en？.md",
     "_posts/FUCK.md",
-    "_posts/Added information about the previous MoonLight  management system.md",
-    "_posts/Card-password-verification system-without-network-storage2.md",
+    "_posts/FileScnner.md",
+    "_posts/expressive-code.md",
     "AndroidManifest.xml",
     "PeriodicFileScanner.java",
     "ScannerManager 1.java",

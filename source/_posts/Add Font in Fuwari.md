@@ -1,6 +1,6 @@
 ---
 title: 如何给 Fuwari自定义字体？
-published: 2025-08-10
+date: 2025-08-10
 description: 如何给Astro自定义字体？
 tags:
   - 技术

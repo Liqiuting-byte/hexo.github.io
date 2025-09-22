@@ -1,6 +1,6 @@
 ---
 title: 补充网络配置加载
-published: 2025-08-27
+date: 2025-08-27
 description: 补充网络配置加载
 tags:
   - 技术

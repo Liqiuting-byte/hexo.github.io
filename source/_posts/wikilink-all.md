@@ -1,6 +1,6 @@
 ---
 title: 反向链接适配汇总
-published: 2025-09-21
+date: 2025-09-21
 description: 汇总性质文章
 tags:
   - 技术

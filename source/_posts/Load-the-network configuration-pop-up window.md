@@ -1,6 +1,6 @@
 ---
 title: 如何注入网络配置弹窗
-published: 2025-08-27
+date: 2025-08-27
 description: 给APP注入弹窗的详细教程
 tags:
   - 技术

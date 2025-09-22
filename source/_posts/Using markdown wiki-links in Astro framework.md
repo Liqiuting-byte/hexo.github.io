@@ -1,6 +1,6 @@
 ---
 title: 适配反向链接
-published: 2025-09-07
+date: 2025-09-07
 description: Using markdown wiki-links in Astro framework
 tags:
   - 技术

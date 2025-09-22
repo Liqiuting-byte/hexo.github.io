@@ -1,6 +1,6 @@
 ---
 title: 链式代理补充
-published: 2025-08-28
+date: 2025-08-28
 description: 链式代理补充
 tags:
   - 技术

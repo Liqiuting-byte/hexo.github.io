@@ -1,6 +1,6 @@
 ---
 title: Simple Guides for Fuwari
-published: 2024-04-01
+date: 2024-04-01
 description: How to use this blog template.
 tags:
   - Fuwari
@@ -19,7 +19,7 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 ```yaml
 ---
 title: My First Blog Post
-published: 2023-09-09
+date: 2023-09-09
 description: This is the first post of my new Astro blog.
 image: ./cover.jpg
 tags: [Foo, Bar]
@@ -31,7 +31,7 @@ draft: false
 | Attribute     | Description                                                                                                                                                                                                 |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
+| `date`   | The date the post was date.                                                                                                                                                                            |
 | `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
 | `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
 | `tags`        | The tags of the post.                                                                                                                                                                                       |

@@ -1,6 +1,6 @@
 ---
 title: Markdown思维导图
-published: 2023-10-01
+date: 2023-10-01
 pinned: false
 description: A simple example of a Markdown blog post with Mermaid.
 tags:
@@ -121,7 +121,7 @@ classDiagram
         +String title
         +String content
         +Date publishDate
-        +Boolean published
+        +Boolean date
         +publish()
         +edit()
         +delete()
@@ -158,11 +158,11 @@ stateDiagram-v2
     Draft --> UnderReview : submit
     UnderReview --> Draft : reject
     UnderReview --> Approved : approve
-    Approved --> Published : publish
-    Published --> Archived : archive
-    Published --> Draft : retract
+    Approved --> date : publish
+    date --> Archived : archive
+    date --> Draft : retract
     
-    state Published {
+    state date {
         [*] --> Active
         Active --> Hidden : temporarily hide
         Hidden --> Active : restore

@@ -1,6 +1,6 @@
 ---
 title: 如何给应用内置杀en
-published: 2025-08-26
+date: 2025-08-26
 description: 如何给应用内置杀en
 tags:
   - 技术

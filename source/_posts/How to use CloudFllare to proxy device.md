@@ -1,6 +1,6 @@
 ---
 title: 如何使用CF搭建节点
-published: 2025-08-13
+date: 2025-08-13
 description: 如何使用CF搭建节点
 tags:
   - 技术

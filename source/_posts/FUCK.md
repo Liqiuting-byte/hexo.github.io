@@ -1,6 +1,6 @@
 ---
 title: 适配反向链接
-published: 2025-08-27
+date: 2025-08-27
 description: 适配反向链接
 tags:
   - 技术

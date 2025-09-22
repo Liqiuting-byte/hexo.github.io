@@ -1,6 +1,6 @@
 ---
 title: Cloudflare-Worker-ProxyLink使用教程
-published: 2025-08-11
+date: 2025-08-11
 description: Cloudflare-Worker-ProxyLink一款多功能反向代理工具
 tags:
   - 技术
