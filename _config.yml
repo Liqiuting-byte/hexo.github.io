@@ -103,6 +103,6 @@ theme: stellar
 deploy:
   type: git
   repo: https://github.com/Liqiuting-byte/hexo.github.io.git # 保持 HTTPS 地址
-  branch: main
+  branch: gh-pages
   
 backlink: true 
