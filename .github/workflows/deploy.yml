@@ -3,9 +3,8 @@ name: Deploy Hexo Blog
 on:
   push:
     branches:
-      - main # 当 main 分支有新的 push 时触发
+      - main
 
-# 关键：授予 GITHUB_TOKEN 写入内容的权限
 permissions:
   contents: write
 
@@ -15,23 +14,27 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          submodules: true # <--- 修改：添加这一行来拉取主题（子模块）
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3 # <--- 新增：安装 pnpm
+        with:
+          version: 8 # 你可以指定 pnpm 版本，例如 8
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'pnpm'
+          cache: 'pnpm' # 缓存 pnpm 依赖，保持不变
 
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm install # 安装项目依赖
 
       - name: Deploy 🚀
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # 使用 GITHUB_TOKEN 进行部署
           pnpm hexo deploy --generate
         env:
-          # 将 GITHUB_TOKEN 注入到 Git 的认证 URL 中
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
