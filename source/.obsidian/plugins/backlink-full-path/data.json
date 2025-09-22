@@ -1,0 +1,8 @@
+{
+  "pathDepth": 2,
+  "shouldDisplayParentPathOnSeparateLine": false,
+  "shouldHighlightFileName": true,
+  "shouldIncludeExtension": true,
+  "shouldReversePathParts": true,
+  "shouldShowEllipsisForSkippedPathParts": true
+}
