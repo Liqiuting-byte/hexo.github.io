@@ -101,6 +101,8 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Liqiuting-byte/hexo.github.io.git # 保持 HTTPS 地址
+  branch: gh-pages
   
 backlink: true 

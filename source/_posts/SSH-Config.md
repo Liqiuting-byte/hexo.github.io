@@ -110,3 +110,14 @@ draft: false
     
 
 当向 github.com-personal 推送时，SSH 会自动加载 id_rsa_personal 密钥，反之亦然
+
+### 常用命令速查表
+
+|                    |               |
+| ------------------ | ------------- |
+| 命令                 | 作用            |
+| git status         | 查看当前仓库的状态     |
+| git add .          | 将所有更改添加到暂存区   |
+| git commit -m "说明" | 将暂存区的更改提交到本地  |
+| git pull           | 从远程仓库拉取最新版本   |
+| git push           | 将本地的提交推送到远程仓库 |
