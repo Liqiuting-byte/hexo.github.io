@@ -10,7 +10,7 @@ tags:
   - 静态
   - 教程
 category: 教程
-draft: false
+published: false
 ---
 :::warning[警告]
 添加字体会降低网站访问速度与流量使用，请慎重选择，出于安全性考虑，本博客已经从main.css当中删除字体，如果你想要使用此废稿，请仅需修改CSS

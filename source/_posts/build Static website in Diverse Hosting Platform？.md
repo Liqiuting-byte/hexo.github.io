@@ -9,7 +9,7 @@ tags:
   - 托管
   - 博客
 category: 前端
-draft: false
+published: false
 ---
 ## 如何将你的 Astro 网站部署到 Cloudflare、Vercel 和 Netlify
 

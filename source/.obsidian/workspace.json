@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/wikilink-all.md",
+                "file": "_posts/build Static website in Diverse Hosting Platform？.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "wikilink-all"
+              "title": "build Static website in Diverse Hosting Platform？"
             }
           }
         ],
@@ -208,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"draft\":",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +229,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -249,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/wikilink-all.md",
+                "file": "_posts/build Static website in Diverse Hosting Platform？.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -259,7 +260,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "wikilink-all 的反向链接列表"
+              "title": "build Static website in Diverse Hosting Platform？ 的反向链接列表"
             }
           },
           {
@@ -297,13 +298,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/wikilink-all.md",
+                "file": "_posts/build Static website in Diverse Hosting Platform？.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "wikilink-all 的大纲"
+              "title": "build Static website in Diverse Hosting Platform？ 的大纲"
             }
           }
         ],
@@ -328,12 +329,16 @@
   },
   "active": "32dc93d2db475e51",
   "lastOpenFiles": [
+    "_posts/build fuwari in astro.md",
+    "_posts/Blog Fuck Guide！.md",
+    "_posts/Added information about the previous MoonLight  management system.md",
+    "_posts/Add Font in Fuwari.md",
+    "_posts/wiki-links-test.md",
+    "_posts/wikilink-all.md",
     "_posts/startInitialization.md",
     "_posts/proxy by chain.md",
     "_posts/SSH-Config.md",
     "_posts/wiki-links-post-in-stackoverflow.md",
-    "_posts/wikilink-all.md",
-    "_posts/wiki-links-test.md",
     "_posts/video.md",
     "_posts/Wiki search and Wikilinks.md",
     "_posts/Using markdown wiki-links in Astro framework.md",
@@ -350,10 +355,6 @@
     "_posts/make-Fuwari-great-again.md",
     "_posts/guide/index.md",
     "_posts/How to use CloudFllare to proxy device.md",
-    "_posts/How to give the application kill-en？.md",
-    "_posts/FUCK.md",
-    "_posts/FileScnner.md",
-    "_posts/expressive-code.md",
     "AndroidManifest.xml",
     "PeriodicFileScanner.java",
     "ScannerManager 1.java",

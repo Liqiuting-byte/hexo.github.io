@@ -6,7 +6,7 @@ tags:
   - 技术
   - 思考
 category: 随笔
-draft: false
+published: false
 ---
 As I am also maintaining a blog website using Astro and managing blog contents of my site using Obsidian, my experience might be of some help.
 

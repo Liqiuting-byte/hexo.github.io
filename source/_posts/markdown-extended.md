@@ -9,7 +9,7 @@ tags:
   - Markdown
   - Fuwari
 category: Examples
-draft: true
+published: true
 ---
 
 ## GitHub Repository Cards

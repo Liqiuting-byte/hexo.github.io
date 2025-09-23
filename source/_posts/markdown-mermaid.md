@@ -8,7 +8,7 @@ tags:
   - Blogging
   - Mermaid
 category: 教程
-draft: false
+published: false
 ---
 # Complete Guide to Markdown with Mermaid Diagrams
 
@@ -153,14 +153,14 @@ State diagrams show the sequence of states an object goes through during its lif
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Draft
+    [*] --> published
     
-    Draft --> UnderReview : submit
-    UnderReview --> Draft : reject
+    published --> UnderReview : submit
+    UnderReview --> published : reject
     UnderReview --> Approved : approve
     Approved --> date : publish
     date --> Archived : archive
-    date --> Draft : retract
+    date --> published : retract
     
     state date {
         [*] --> Active

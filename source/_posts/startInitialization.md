@@ -6,7 +6,7 @@ tags:
   - 技术
   - 思考
 category: MoonLight
-draft: true
+published: true
 ---
 startInitialization函数
 包含了核心的初始化逻辑，例如加载配置、检查更新、发起网络请求等

@@ -6,7 +6,7 @@ tags:
   - Example
   - Video
 category: Examples
-draft: true
+published: true
 ---
 
 Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.

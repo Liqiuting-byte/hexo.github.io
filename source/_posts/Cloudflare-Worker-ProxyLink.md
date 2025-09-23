@@ -8,7 +8,7 @@ tags:
   - 反代
   - Cloudflare
 category: 教程
-draft: false
+published: false
 ---
 ## 前言
 我们在分享网站的时候，难免会出现一些网站无法访问（因为防火墙的存在），而信息的接收方会因为没有特定的代理工具，而无法查看你所分享的信息，但传输可能存在安全性问题，暴露的代理链接又会导致极快的封锁与阻断，因此我开发了Cloudflare-Worker-ProxyLink

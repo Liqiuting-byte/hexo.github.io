@@ -6,7 +6,7 @@ tags:
   - 技术
   - 思考
 category: 前端
-draft: false
+published: false
 ---
 
 ### **Astro 博客模板使用指南**
@@ -27,7 +27,7 @@ description: 这是我用 Astro 搭建的新博客的第一篇文章。
 image: ./cover.jpg
 tags: [技术, 思考]
 category: 前端
-draft: false
+published: false
 ---
 ```
 
@@ -41,7 +41,7 @@ draft: false
 | `image`          | **封面图片** | 文章的封面图路径。<br>1. `https://...`：使用网络图片。<br>2. `/images/cover.png`：使用 `public` 目录下的图片。<br>3. `./cover.png`：使用相对于当前 md 文件的图片。 |
 | `tags`           | **标签**   | 文章的标签，可以有多个，用方括号包裹。                                                                                                       |
 | `category`       | **分类**   | 文章所属的分类。                                                                                                                  |
-| `draft`          | **草稿状态** | - `true`: 文章为草稿，不会被发布和显示。<br>- `false`: 文章为公开状态，所有人可见。                                                                    |
+| `published`          | **草稿状态** | - `true`: 文章为草稿，不会被发布和显示。<br>- `false`: 文章为公开状态，所有人可见。                                                                    |
 
 ---
 

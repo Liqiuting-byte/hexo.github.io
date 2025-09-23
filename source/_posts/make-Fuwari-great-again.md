@@ -9,7 +9,7 @@ tags:
   - 美化
   - 博客
 category: 教程
-draft: false
+published: false
 obsidian-short: ../post
 ---
 :::tip

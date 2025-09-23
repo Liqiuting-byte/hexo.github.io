@@ -767,7 +767,7 @@ style:
     image-s: 8px # 评论区图片圆角（部分评论支持）
   color:
     # 主题色配置（不会根据明暗动态调整，请设置为通用的颜色）
-    theme: 'hsl(192 98% 55%)' # 主题色
+    theme: 'hsl(20.0,26.35%,58.04%)' # 主题色
     accent: 'hsl(14 100% 57%)' # 强调色
     link: 'hsl(207 90% 54%)' # 超链接颜色
   animated_avatar:
@@ -795,8 +795,8 @@ style:
   site: # 使用 background-image 后，blur 设置才有效
     background-image: url(https://china.342191.xyz/)
     blur-px: 2px
-   # blur-bg: var(--bg-a75)
-   # blur-sat: 300%
+    blur-bg: var(--bg-a75)
+    blur-sat: 300%
   # 技术文章内页各级标题前面的符号
   header_prefix:
     h2: '#'

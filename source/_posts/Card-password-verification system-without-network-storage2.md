@@ -6,7 +6,7 @@ tags:
   - 技术
   - 思考
 category: 前端
-draft: true
+published: true
 ---
 
 ## 使用 Cloudflare Workers 和 JWS 打造无懈可击的安卓应用授权系统

@@ -7,7 +7,7 @@ tags:
   - 思考
   - 代理
 category: 网络
-draft: false
+published: false
 ---
 前几日补充的代理使用的是singbox，想了想还是觉得nekobox链式代理方便
 
