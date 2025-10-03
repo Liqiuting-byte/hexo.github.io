@@ -6,7 +6,7 @@ tags:
   - 技术
   - 思考
 category: 前端
-published: false
+published:  true
 ---
 
 ### **Astro 博客模板使用指南**
@@ -27,7 +27,7 @@ description: 这是我用 Astro 搭建的新博客的第一篇文章。
 image: ./cover.jpg
 tags: [技术, 思考]
 category: 前端
-published: false
+published:  true
 ---
 ```
 

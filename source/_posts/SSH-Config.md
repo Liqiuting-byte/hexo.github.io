@@ -9,7 +9,7 @@ tags:
   - 博客
   - 教程
 category: 日记
-published: false
+published:  true
 ---
 ### 使用 SSH Config 实现认证分离
 

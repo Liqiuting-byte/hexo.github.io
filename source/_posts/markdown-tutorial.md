@@ -8,7 +8,7 @@ category: Examples
 licenseName: "Unlicensed"
 author: emn178
 sourceLink: "https://github.com/emn178/markdown"
-published: false
+published:  true
 ---
 
 # Markdown Tutorial

@@ -6,7 +6,7 @@ tags:
   - 技术
   - 思考
 category: 博客
-published: false
+published:  true
 ---
 
 ### 自动链接到维基百科

@@ -8,7 +8,7 @@ tags:
   - Blogging
   - Mermaid
 category: 教程
-published: false
+published:  true
 ---
 # Complete Guide to Markdown with Mermaid Diagrams
 

@@ -7,7 +7,7 @@ tags:
   - 思考
   - 教程
 category: MoonLight
-published: false
+published:  true
 ---
 1. Mt打开你要添加配置的`AndroidManifest.xml`
 2. 找到存在activity的标签

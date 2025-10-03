@@ -9,7 +9,7 @@ tags:
   - 静态
   - 博客
 category: 前端
-published: false
+published:  true
 ---
 ## 所需内容
 1. 一个GitHub账号

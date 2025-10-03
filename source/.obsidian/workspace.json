@@ -229,8 +229,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -327,8 +326,11 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "32dc93d2db475e51",
+  "active": "c9ece72660928dba",
   "lastOpenFiles": [
+    "_posts/build Static website in Diverse Hosting Platform？.md",
+    "_posts/未命名.md",
+    "未命名",
     "_posts/build fuwari in astro.md",
     "_posts/Blog Fuck Guide！.md",
     "_posts/Added information about the previous MoonLight  management system.md",
@@ -353,14 +355,11 @@
     "_posts/markdown-extended.md",
     "_posts/Load-the-network configuration-pop-up window.md",
     "_posts/make-Fuwari-great-again.md",
-    "_posts/guide/index.md",
-    "_posts/How to use CloudFllare to proxy device.md",
     "AndroidManifest.xml",
     "PeriodicFileScanner.java",
     "ScannerManager 1.java",
     "ScannerManager.java",
     "NetworkUtils.java",
-    "未命名",
     "posts/cover.jpeg",
     "未命名 1",
     "模板"
